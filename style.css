@@ -143,6 +143,13 @@ header .menu {
 }
 #works .box .imgbox {
   width: 300px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+  #works .box .imgbox {
+    width: 250px;
+    margin-left: 80px;
+  }
 }
 
 #browse .textbox {
@@ -297,6 +304,7 @@ header .menu {
 }
 @media (max-width: 1200px) {
   #callour .row {
+    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -304,8 +312,6 @@ header .menu {
   }
   #callour .row .imgbox {
     width: 100%;
-  }
-  #callour .row .imgbox img {
     margin: 20px 0;
   }
   #callour .row .textbox h5 {
