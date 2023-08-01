@@ -142,12 +142,43 @@ header .menu {
   line-height: 1.3;
 }
 #works .box .imgbox {
-  width: 300px;
-  margin-left: 20px;
+  width: 350px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  #works .box .textbox h2 {
+    font-size: 25px;
+  }
+  #works .box .textbox h4 {
+    font-size: 15px;
+  }
   #works .box .imgbox {
     width: 250px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #works .box .textbox h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  #works .box .textbox h4 {
+    font-size: 17px;
+  }
+  #works .box .imgbox {
+    width: 350px;
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #works .box .textbox h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  #works .box .textbox h4 {
+    font-size: 17px;
+  }
+  #works .box .imgbox {
+    width: 200px;
     margin-left: 80px;
   }
 }
